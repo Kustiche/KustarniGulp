@@ -1,28 +1,32 @@
 {
-  "name": "kustarnigulp",
-  "version": "1.0.0",
-  "description": "Моя личная сборка GULP",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Kustiche/KustarniGulp.git"
-  },
-  "keywords": [
-    "GULP",
-    "HTML",
-    "CSS",
-    "JS"
-  ],
-  "author": "Kustiche",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Kustiche/KustarniGulp/issues"
-  },
-  "homepage": "https://github.com/Kustiche/KustarniGulp#readme",
-  "devDependencies": {
-    "gulp": "^5.0.0"
-  }
+	"name": "kustarnigulp",
+	"version": "1.0.0",
+	"description": "Моя личная сборка GULP",
+	"main": "gulpfile.js",
+	"type": "module",
+	"scripts": {
+		"gulp": "gulp"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Kustiche/KustarniGulp.git"
+	},
+	"keywords": [
+		"GULP",
+		"HTML",
+		"CSS",
+		"JS"
+	],
+	"author": "Kustiche",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Kustiche/KustarniGulp/issues"
+	},
+	"homepage": "https://github.com/Kustiche/KustarniGulp#readme",
+	"devDependencies": {
+		"browser-sync": "^3.0.4",
+		"del": "^8.0.0",
+		"gulp": "^5.0.0",
+		"gulp-file-include": "^2.3.0"
+	}
 }
