@@ -17,6 +17,11 @@ export const path = {
 		resources: `${srcFolder}/resources/**/*.*`,
 	},
 
+	watch: {
+		html: `${srcFolder}/html/**/*.html`,
+		scss: `${srcFolder}/scss/style.scss`,
+	},
+
 	clean: buildFolder,
 	buildFolder: buildFolder,
 };

@@ -12,4 +12,8 @@ global.app = {
 	plugins: plugins,
 };
 
-gulp.task('default', gulp.series(clean, gulp.parallel(server, copy, html)));
+const watchFiles = () => {
+	gulp.watch(app.path.watch.html, html);
+};
+
+gulp.task('default', gulp.series(clean, gulp.parallel(server, copy, html, watchFiles)));
